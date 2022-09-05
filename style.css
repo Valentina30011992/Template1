@@ -313,10 +313,15 @@ main {
     text-align: center;
 }
 
-.homerun__video-pic{
-    margin: 30px 0 0;
-    width: 860px;
-    height: 515.89px;
+.homerun__video-img{
+    margin: 30px auto 0;
+    max-width: 860px;
+    height: 515px;
+}
+.homerun__video-img>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .homerun__video-play{
@@ -328,8 +333,7 @@ main {
 .homerun__video-play__btn{
     position: absolute;
     bottom: 70px;
-    /* right: 25%; */
-    left: 35%;
+    left: 34%;
     padding: 15px 0 0;
     display: flex;
     justify-content: space-around;
